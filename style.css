@@ -9,6 +9,8 @@ main {
   height: 100vh;
   background-color: #13274f;
   display: flex;
+  gap: 50px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -18,7 +20,18 @@ main {
   height: 250px;
 }
 
-.splide__slide img {
+.firstSplide img {
+  width: auto;
+  height: 250px;
+  object-fit: contain;
+}
+
+.secondSplide {
+  width: 350px;
+  height: auto;
+}
+
+.splideSlideSecond img {
   width: auto;
   height: 250px;
   object-fit: contain;

@@ -6,3 +6,11 @@ var splide = new Splide(".splide", {
 });
 
 splide.mount();
+
+var secondSplide = new Splide(".secondSplide", {
+  focus: "center",
+  direction: "ttb",
+  height: "15rem",
+});
+
+secondSplide.mount();
