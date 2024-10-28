@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splide {
+  width: 50%;
+  height: 250px;
+}
+
+.splide__slide img {
+  width: auto;
+  height: 250px;
+  object-fit: contain;
+}
